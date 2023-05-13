@@ -12,45 +12,45 @@
 <body>
     <div id="game-box">
         <div class="btn-start-box">
-            <button id="btn-start"></button>
+            <button id="btn-start" class="btns">Start</button>
         </div>
 
-    <div id="message-box">
-        <h1>Starting game!</h1>
-    </div>
-
-    <div id="players-box">
-        <div id="player1">
-            <img src="assets/images/default.png" alt="default">
+        <div id="message-box">
+            <h1 class="font">Starting game!</h1>
         </div>
-        <div id="Jarvis">
-            <img src="assets/images/default.png" alt="default">
+
+        <div id="players-box">
+            <div id="player1">
+                <img src="assets/images/default.png" alt="default">
+            </div>
+            <div id="Jarvis">
+                <img src="assets/images/default.png" alt="default">
+            </div>
         </div>
-    </div>
 
-    <div id="btn-box">
-        <button aria-label="Rock" data-choice="0" class="btn-choice">Rock</button>
-        <button aria-label="Paper" data-choice="1" class="btn-choice">Paper</button>
-        <button aria-label="Scissors" data-choice="2" class="btn-choice">Scissors</button>
-    </div>
-
-    <div id="score-box">
-         <div id="scores">
-            <h3>Score Player 1 <span id="score-player1">0</span></h3>
-         </div>
-
-        <div id="scores">
-        <h3>Score Jarvis <span id="score-Jarvis">0</span></h3>
+        <div id="btn-box">
+            <button aria-label="Rock" data-choice="0" class="btn-choice btns">Rock</button>
+            <button aria-label="Paper" data-choice="1" class="btn-choice btns">Paper</button>
+            <button aria-label="Scissors" data-choice="2" class="btn-choice btns">Scissors</button>
         </div>
-    </div>
+
+        <div id="score-box">
+            <div id="scores">
+                <h3 class="font">Score Player 1 <span id="score-player1">0</span></h3>
+            </div>
+
+            <div id="scores">
+                <h3 class="font">Score Jarvis <span id="score-Jarvis">0</span></h3>
+            </div>
+        </div>
     </div>
 
     <footer>
-        <h3>Rules</h3>
+        <h3 class="font">Rules</h3>
         <ul>
-            <li>Rock wins against scissors.</li>
-            <li>Scissors win against paper.</li>
-            <li>Paper wins against rock.</li>
+            <li class="font">Rock wins against scissors.</li>
+            <li class="font">Scissors win against paper.</li>
+            <li class="font">Paper wins against rock.</li>
         </ul>
     </footer>
     <script src="assets/js/script.js"></script>
