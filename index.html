@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+
+<body>
+    <div id="game-box">
+        <div class="btn-start-box">
+            <button id="btn-start"></button>
+        </div>
+
+    <div id="message-box">
+        <h1>Starting game!</h1>
+    </div>
+
+    <div id="players-box">
+        <div id="player1">
+            <img src="assets/images/default.png" alt="default">
+        </div>
+        <div id="Jarvis">
+            <img src="assets/images/default.png" alt="default">
+        </div>
+    </div>
+
+    <div id="btn-box">
+        <button aria-label="Rock" data-choice="0" class="btn-choice">Rock</button>
+        <button aria-label="Paper" data-choice="1" class="btn-choice">Paper</button>
+        <button aria-label="Scissors" data-choice="2" class="btn-choice">Scissors</button>
+    </div>
+
+    <div id="score-box">
+         <div id="scores">
+            <h3>Score Player 1 <span id="score-player1">0</span></h3>
+         </div>
+
+        <div id="scores">
+        <h3>Score Jarvis <span id="score-Jarvis">0</span></h3>
+        </div>
+    </div>
+    </div>
+
+    <footer>
+        <h3>Rules</h3>
+        <ul>
+            <li>Rock wins against scissors.</li>
+            <li>Scissors win against paper.</li>
+            <li>Paper wins against rock.</li>
+        </ul>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
