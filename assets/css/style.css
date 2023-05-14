@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Oswald:wght@300&family=Roboto+Mono&display=swap');
 
 * {
     margin: 0;
@@ -11,11 +11,13 @@ body {
 }
 
 .font {
-    font-family: 'Lato', sans-serif, 'Open Sans', 'Oswald',
-        sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 
-.btn-start-box {
+.btn-reset-box {
     padding: 40px 0 10px 40px;
 }
 
