@@ -131,3 +131,19 @@ footer li {
     list-style: none;
     display: inline-block;
 }
+
+@media screen and (max-width: 820px) {
+    #game-box {
+        height: 1024px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #players-box {
+    width: 85%;
+}
+}
+
+@media screen and (max-width: 420px) {
+footer {}
+}
