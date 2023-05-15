@@ -140,10 +140,28 @@ footer li {
 
 @media screen and (max-width: 600px) {
     #players-box {
-    width: 85%;
-}
+        width: 85%;
+    }
 }
 
 @media screen and (max-width: 420px) {
-footer {}
+    h1 {
+        font-size: 30px;
+    }
+
+    h2,
+    h3 {
+        font-size: 18px;
+    }
+
+    footer ul {
+        height: 70%;
+        width: 50%;
+    }
+
+    footer li {
+        display: flex;
+        font-size: 14px;
+        padding: 0;
+    }
 }
