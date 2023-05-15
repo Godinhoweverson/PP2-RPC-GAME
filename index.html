@@ -10,53 +10,62 @@
 </head>
 
 <body>
+    <!-- Main box -->
     <div id="game-box">
+
+        <!-- Reset botton -->
         <div class="btn-reset-box">
             <button id="btn-start" class="btns font">Reset</button>
         </div>
-
+        
+        <!-- Message box -->
         <div id="message-box">
             <h1 class="font">Starting game!</h1>
         </div>
-
+        <!-- Players box -->
         <div id="players-box">
-
+             <!-- player -->
             <div id="player">
                 <div class="name">
                     <h2 class="font">Player</h2>
                 </div>
-                <div class="image">
-                    <img src="assets/images/rock.png" alt="rock">
+                <div class="image-box">
+                    <img id="image--player" src="assets/images/rock.png" alt="rock">
                 </div>
 
             </div>
-            <div id="jarvis">
+
+            <!-- computer -->
+            <div id="computer">
                 <div class="name">
-                    <h2 class="font">Jarvis</h2>
+                    <h2 class="font">Computer</h2>
                 </div>
-                <div class="image">
-                    <img src="assets/images/rock.png" alt="rock">
+                <div class="image-box">
+                    <img id="image--player" src="assets/images/rock.png" alt="rock">
                 </div>
             </div>
         </div>
-
+            <!-- Button box -->
         <div id="btn-box" class="display-default">
             <button aria-label="Rock" data-choice="0" class="btn-choice btns font">Rock</button>
             <button aria-label="Paper" data-choice="1" class="btn-choice btns font">Paper</button>
             <button aria-label="Scissors" data-choice="2" class="btn-choice btns font">Scissors</button>
         </div>
-
+          <!-- Score box -->
         <div id="score-box " class="display-default">
-            <div id="scores">
+
+            <!-- Score player -->
+            <div id="scores--Player">
                 <h3 class="font">Score Player: <span id="score-player">0</span></h3>
             </div>
-
-            <div id="scores">
-                <h3 class="font">Score Jarvis: <span id="score-jarvis">0</span></h3>
+         <!-- Score computer -->       
+            <div id="scores--computer">
+                <h3 class="font">Score Computer: <span id="score-computer">0</span></h3>
             </div>
         </div>
     </div>
-
+ 
+    <!-- Footer -->
     <footer>
         <h3 class="font">Rules</h3>
         <ul>
