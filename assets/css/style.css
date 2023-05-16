@@ -154,14 +154,23 @@ footer li {
         font-size: 18px;
     }
 
-    footer ul {
-        height: 70%;
-        width: 50%;
+    footer{
+        height:150px;
     }
 
-    footer li {
-        display: flex;
-        font-size: 14px;
-        padding: 0;
+       footer h3{
+    padding-top: 15px;
+       }
+
+       footer li{
+        font-size:14px;
+        padding-left:15px;
+       }
+    .third--li{
+        padding-left:100px;
     }
-}
+
+
+    @media screen and (min-width: 200px){
+
+    }
