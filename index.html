@@ -1,80 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+     <link rel="stylesheet" href="assets/css/style.css">
     <title>Rock Paper Scissors</title>
 </head>
-
 <body>
-    <!-- Main box -->
-    <div id="game-box">
-
-        <!-- Reset botton -->
-        <div class="btn-reset-box">
-            <button id="btn-start" class="btns font">Reset</button>
-        </div>
-        
-        <!-- Message box -->
-        <div id="message-box">
-            <h1 class="font">Starting game!</h1>
-        </div>
-        <!-- Players box -->
-        <div id="players-box">
-             <!-- player -->
-            <div id="player">
-                <div class="name">
-                    <h2 class="font">Player</h2>
-                </div>
-                <div class="image-box">
-                    <img id="image--player" src="assets/images/rock.png" alt="rock">
-                </div>
-
-            </div>
-
-            <!-- computer -->
-            <div id="computer">
-                <div class="name">
-                    <h2 class="font">Computer</h2>
-                </div>
-                <div class="image-box">
-                    <img id="image--player" src="assets/images/rock.png" alt="rock">
-                </div>
-            </div>
-        </div>
-            <!-- Button box -->
-        <div id="btn-box" class="display-default">
-            <button aria-label="Rock" data-choice="0" class="btn-choice btns font">Rock</button>
-            <button aria-label="Paper" data-choice="1" class="btn-choice btns font">Paper</button>
-            <button aria-label="Scissors" data-choice="2" class="btn-choice btns font">Scissors</button>
-        </div>
-          <!-- Score box -->
-        <div id="score-box " class="display-default">
-
-            <!-- Score player -->
-            <div id="scores--Player">
-                <h3 class="font">Score Player: <span id="score-player">0</span></h3>
-            </div>
-         <!-- Score computer -->       
-            <div id="scores--computer">
-                <h3 class="font">Score Computer: <span id="score-computer">0</span></h3>
-            </div>
-        </div>
-    </div>
- 
-    <!-- Footer -->
-    <footer>
-        <h3 class="font">Rules</h3>
-        <ul>
-            <li class="font">Rock wins against scissors | </li>
-            <li class="font">Scissors win against paper | </li>
-            <li class="third--li" class="font">Paper wins against rock</li>
-        </ul>
-    </footer>
-    <script src="assets/js/script.js"></script>
+    <h1>
+        <p>Rock</p>
+        <p>Paper</p>
+        <p>Scissors</p>
+    </h1>
+<a href="game.html"> <button class='glowing-btn'><span class='glowing-txt'>C<span class='faulty-letter'>L</span>ICK</span></button>
+</a>
+     <script src="assets/js/script.js"></script>
 </body>
-
 </html>
