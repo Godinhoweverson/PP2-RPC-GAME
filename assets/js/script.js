@@ -23,7 +23,7 @@ let player;
  * specifically listening for a 'click' event. When a button is clicked, the code inside the function will be executed.
  */
 for (buttons of btnsBox) {
-    buttons.addEventListener('click', function () {
+    buttons.addEventListener('click', function() {
         let itens = this.getAttribute('data-choice');
         gameSteUp(itens);
 
@@ -39,8 +39,8 @@ function gameSteUp(itens) {
 
     let randomNumber = Math.floor(Math.random() * 3);
 
-    computer.src = `assets/images/${computerChoice[randomNumber]}.png`;
-    player.src = `assets/images/${computerChoice[itens]}.png`;
+    imageComputer.src = `assets/images/${computerChoice[randomNumber]}.png`;
+    imagePlayer.src = `assets/images/${computerChoice[itens]}.png`;
 
 
 }
