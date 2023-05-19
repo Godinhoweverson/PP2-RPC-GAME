@@ -18,16 +18,31 @@ let computer;
 let player;
 
 /**
- * 
+ * The loop iterating over a collection of buttons with the variable name "buttons" representing each button in the collection. 
+ * It seems to be adding an event listener to each button, 
+ * specifically listening for a 'click' event. When a button is clicked, the code inside the function will be executed.
  */
-for (buttons of computerChoice) {
+for (buttons of btnsBox) {
     buttons.addEventListener('click', function () {
         let itens = this.getAttribute('data-choice');
-        gameSteUp();
+        gameSteUp(itens);
 
     });
 }
 
-function gameSteUp (itens){
-    
+
+/**
+ * 
+ * @param {This function will define random number for call } itens 
+ */
+function gameSteUp(itens) {
+
+    let randomNumber = Math.floor(Math.random() * 3);
+
+    computer.src = `assets/images/${computerChoice[randomNumber]}.png`;
+    player.src = `assets/images/${computerChoice[itens]}.png`;
+
+
 }
+
+
