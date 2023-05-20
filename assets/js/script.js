@@ -95,12 +95,13 @@ function gameSteUp(itens) {
 
 function winner() {
     if (scorePlayer.textContent == '3') {
-        document.body.style.removeProperty('background-image');
-        document.body.style.setProperty('background-color', 'green');
+        document.body.style.backgroundColor = "#00B712";
+
+
 
     } else if (scoreComputer.textContent == '3') {
-        document.body.style.removeProperty('background-image');
-        document.body.style.backgroundColor = "red";
+        document.body.style.backgroundColor = "	#FF0000";
+        message.textContent = 'Looser!';
     }
 
 
