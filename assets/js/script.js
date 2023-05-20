@@ -49,24 +49,38 @@ function gameSteUp(itens) {
     imagePlayer.src = `assets/images/${computerChoice[itens]}.png`;
 
 
+
+    // Assign the computer and player choices based on the randomly generated number and player choices.
     computer = computerChoice[randomNumber];
     player = computerChoice[itens];
 
 
+    //if statement checks the different combinations of choices (rock, paper, scissors) between the player and the computer. 
 
     if (player === computer) {
         message.textContent = 'Draw!';
+        // If both choices are the same, it's a draw
 
     } else if (player === 'rock' && computer === 'scissors') {
         message.textContent = 'Player win!';
+        // If the player chooses rock and the computer chooses scissors, the player wins.
+
     } else if (player === 'scissors' && computer === 'paper') {
         message.textContent = 'Player win!';
+        // If the player chooses scissors and the computer chooses paper, the player wins
+
 
     } else if (player === 'paper' && computer === 'rock') {
         message.textContent = 'Player win!';
+        // If the player chooses paper and the computer chooses rock, the player wins
+
 
     } else {
         message.textContent = 'Computer win!';
+        // In all other cases, the computer wins
+
     }
 
 }
+
+
