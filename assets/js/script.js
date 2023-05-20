@@ -96,12 +96,16 @@ function gameSteUp(itens) {
 function winner() {
     if (scorePlayer.textContent == '3') {
         document.body.style.backgroundColor = "#00B712";
+        scoreComputer.textContent = "⭐️⭐️";
+        scorePlayer.textContent = "⭐️⭐️";
 
 
 
     } else if (scoreComputer.textContent == '3') {
         document.body.style.backgroundColor = "	#FF0000";
         message.textContent = 'Looser!';
+        scoreComputer.textContent = "⭐️⭐️";
+        scorePlayer.textContent = "⭐️⭐️";
     }
 
 
