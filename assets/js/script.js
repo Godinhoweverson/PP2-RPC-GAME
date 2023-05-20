@@ -5,9 +5,12 @@
 const btnReset = document.querySelector('#btn-reset');
 const imagePlayer = document.querySelector('#image--player');
 const imageComputer = document.querySelector('#image--computer');
-const btnsBox = document.querySelectorAll('#btn-box');
+const btnsBox = document.querySelectorAll('.btn-box');
 const scorePlayer = document.querySelector('#score-player');
 const scoreComputer = document.querySelector('#score-computer');
+
+
+console.log(btnsBox);
 
 //Computer choice
 const computerChoice = ['rock', 'paper', 'scissors'];
@@ -22,8 +25,8 @@ let player;
  * It seems to be adding an event listener to each button, 
  * specifically listening for a 'click' event. When a button is clicked, the code inside the function will be executed.
  */
-for (buttons of btnsBox) {
-    buttons.addEventListener('click', function() {
+for (let buttons of btnsBox) {
+    buttons.addEventListener('click', function () {
         let itens = this.getAttribute('data-choice');
         gameSteUp(itens);
 
@@ -41,7 +44,6 @@ function gameSteUp(itens) {
 
     imageComputer.src = `assets/images/${computerChoice[randomNumber]}.png`;
     imagePlayer.src = `assets/images/${computerChoice[itens]}.png`;
-
 
 }
 
