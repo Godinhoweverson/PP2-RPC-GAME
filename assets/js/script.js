@@ -63,20 +63,29 @@ function gameSteUp(itens) {
 
     } else if (player === 'rock' && computer === 'scissors') {
         message.textContent = 'Player win!';
+        scorePlayer.textContent++;
+        winner();
+
         // If the player chooses rock and the computer chooses scissors, the player wins.
 
     } else if (player === 'scissors' && computer === 'paper') {
         message.textContent = 'Player win!';
+        scorePlayer.textContent++;
+        winner();
         // If the player chooses scissors and the computer chooses paper, the player wins
 
 
     } else if (player === 'paper' && computer === 'rock') {
         message.textContent = 'Player win!';
+        scorePlayer.textContent++;
+        winner();
         // If the player chooses paper and the computer chooses rock, the player wins
 
 
     } else {
         message.textContent = 'Computer win!';
+        scoreComputer.textContent++;
+        winner();
         // In all other cases, the computer wins
 
     }
@@ -84,3 +93,15 @@ function gameSteUp(itens) {
 }
 
 
+function winner() {
+    if (scorePlayer.textContent == '3') {
+        document.body.style.removeProperty('background-image');
+        document.body.style.setProperty('background-color', 'green');
+
+    } else if (scoreComputer.textContent == '3') {
+        document.body.style.removeProperty('background-image');
+        document.body.style.backgroundColor = "red";
+    }
+
+
+}
