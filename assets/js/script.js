@@ -27,7 +27,10 @@ let player;
  */
 for (let buttons of btnsBox) {
     buttons.addEventListener('click', function () {
+        // Get the data-choice attribute from the click button, the data is "rock = 0, paper= 1, scissors= 2"
         let itens = this.getAttribute('data-choice');
+
+        // Call the gameStepUp function with the obtained value
         gameSteUp(itens);
 
     });
@@ -35,14 +38,18 @@ for (let buttons of btnsBox) {
 
 
 /**
- * 
- * @param {This function will define random number for call } itens 
+ * Set up the game by displaying images for the computer and player.
+ * @param {paramenter} itens  = The value obtained from the clicked button's data-choice attribute.
  */
 function gameSteUp(itens) {
 
+    // Generate a random number between 0 and 2    
     let randomNumber = Math.floor(Math.random() * 3);
 
+    //Set  the source imageComputer based on the array[random index between 0 and 2]
     imageComputer.src = `assets/images/${computerChoice[randomNumber]}.png`;
+
+    // Set the source imagePlayer based on data-choice
     imagePlayer.src = `assets/images/${computerChoice[itens]}.png`;
 
 }
