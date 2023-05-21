@@ -1,4 +1,4 @@
-# PP1 ENIAC FIRST COMPUTER
+<!-- # PP1 ENIAC FIRST COMPUTER
 
 This website is about the history of first computer.
 
@@ -191,4 +191,4 @@ You can fork this repository by using the following steps:
 ### Acknowledgements
 
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the technical support.
-- I would like to thank my wife Deborah, for believing in me, and allowing me to make this transition into software development.
+- I would like to thank my wife Deborah, for believing in me, and allowing me to make this transition into software development. -->
