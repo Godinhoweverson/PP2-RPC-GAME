@@ -16,6 +16,11 @@ const computerChoice = ['rock', 'paper', 'scissors'];
 let computer;
 let player;
 
+//// Add a click event listener to the reset button
+btnReset.addEventListener('click', function () {
+    resetBtn();
+});
+
 /**
  * The loop iterating over a collection of buttons with the variable name "buttons" representing each button in the collection. 
  * It seems to be adding an event listener to each button, 
@@ -92,7 +97,10 @@ function gameSteUp(itens) {
 
 }
 
-
+/**
+ * Check for a winner based on the current scores.
+ * If a player or computer reaches a score of 3, update the UI and display appropriate messages.
+ */
 function winner() {
     if (scorePlayer.textContent == '3') {
         document.body.style.backgroundColor = "#00B712";
@@ -109,4 +117,16 @@ function winner() {
     }
 
 
+}
+
+/**
+ * Reset the game to its initial state. */
+function resetBtn() {
+
+    message.textContent = "Choose one!";
+    imagePlayer.src = `assets/images/default.png`;
+    imageComputer.src = `assets/images/default.png`;
+    scorePlayer.textContent = 0;
+    scoreComputer.textContent = 0;
+    document.body.style.backgroundColor = "	#212121";
 }
