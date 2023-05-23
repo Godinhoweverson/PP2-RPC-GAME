@@ -1,32 +1,29 @@
-<!-- # PP1 ENIAC FIRST COMPUTER
+# PP2 RPC-GAME
 
-This website is about the history of first computer.
+The website is a simple implementation of a Rock-Paper-Scissors game.
 
-## About
+## Game Description
 
-<p align="justify">ENIAC (Electronic Numerical Integrator and Computer) was the first general-purpose electronic computer. It was designed and built during World War II by John Mauchly and J. Presper Eckert of the University of Pennsylvania.
-This website provides information about the history and workings of ENIAC.</p>
+- The Rock-Paper-Scissors game is a classic hand game played between two players. Each player simultaneously chooses one of three options: rock, paper, or scissors. The outcome of the game is determined by the choices made by the players:
 
-<p align="justify">By providing information about the Eniac computer, the project can be useful to its target audience in several ways.
+- Rock beats scissors
+- Scissors beats paper
+- Paper beats rock
 
-- Firstly, it can provide historical context and background information on the development of computers. This can be particularly useful for students and researchers in computer science and related fields who may want to understand the evolution of computer technology.
 
-- Secondly, the project can help to promote awareness and appreciation of the Eniac computer, which is an important milestone in the history of computing. By making information about the Eniac computer easily accessible, the project can help to ensure that this important part of computing history is not forgotten.
 
-- Finally, the project can serve as a starting point for further research and exploration into the Eniac computer and its impact on the development of computing. The website includes links to additional resources, such as images and videos, which can be useful for those interested in learning more about the Eniac and related topics.</p>
-
-![Eniac-responsive](https://user-images.githubusercontent.com/128285446/231278408-6f358bf1-0c8b-4898-88d5-c3178d3e766c.jpeg)
+![Eniac-responsive](https://ui.dev/amiresponsive?url=%20https://godinhoweverson.github.io/PP2-RPC-GAME/)
 
 ## User Experience (UX)
 
-- The website has a simple and clean design, with a consistent color scheme and typography. The design is not distracting, and it allows the user to focus on the content of the website.
+- The website has a simple and clean visual design that is intuitive and easy to understand. The color scheme is minimalistic, primarily using shades of gray and white for the background, with contrasting black text and icons. The use of a limited color palette helps to maintain focus on the game itself.
 
-- The website is easy to navigate, with a clear menu at the top of the page that allows the user to quickly access different sections of the website.
+- The options to choose from (Rock, Paper, and Scissors) are clearly displayed and easily distinguishable. Each option is represented by an icon that accurately represents the corresponding object. The icons are visually appealing and help users quickly identify their choices.
 
-- The content of the website is well-organized, with headings and subheadings that make it easy to scan and find specific information. The use of images and videos also helps to break up the text and provide visual interest.
+- The result of the game is displayed using visually distinct messages. When the user wins, the message is displayed in green, while a red message indicates a loss.
 
-- The website is responsive and works well on both desktop and mobile devices. The text and images scale appropriately, and the website is easy to use on smaller screens.
 
+<!-- 
 ## Design
 
 ### Color scheme
