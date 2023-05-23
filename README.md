@@ -10,9 +10,8 @@ The website is a simple implementation of a Rock-Paper-Scissors game.
 - Scissors beats paper
 - Paper beats rock
 
-
-
-![Eniac-responsive](https://ui.dev/amiresponsive?url=%20https://godinhoweverson.github.io/PP2-RPC-GAME/)
+<img src="documentation/images/responsive-rpc.png" alt="Rpc-responsive">
+![RPC-responsive](https://ui.dev/amiresponsive?url=%20https://godinhoweverson.github.io/PP2-RPC-GAME/)
 
 ## User Experience (UX)
 
