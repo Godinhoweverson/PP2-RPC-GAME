@@ -174,7 +174,7 @@ img {
     text-decoration: none;
     overflow: hidden;
     color: #fff;
-    font-weight: 400px;
+    /* font-weight: 400px; */
     z-index: 1;
     transition: 0.5s;
     backdrop-filter: blur(15px);
@@ -212,7 +212,7 @@ img {
     background: #f00;
     border-radius: 10px;
     transition: 0.5s;
-    transition-delay: 0.5;
+    /* transition-delay: 0.5; */
 }
 
 .container .btn:hover::before
@@ -236,7 +236,7 @@ img {
     background: #f00;
     border-radius: 10px;
     transition: 0.5s;
-    transition-delay: 0.5;
+    /* transition-delay: 0.5; */
 }
 
 .container .btn:hover::after
@@ -398,3 +398,4 @@ footer li {
         }
 
     }
+}
