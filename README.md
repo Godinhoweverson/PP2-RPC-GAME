@@ -24,19 +24,22 @@ The website is a simple implementation of a Rock-Paper-Scissors game.
 
 ## Features
 
-- First page, you will see the title "Rock Paper Scissors" displayed prominently. The title gives a clear indication of the game being played and the button play for access the main page.
+## Title page
+- Title page, you will see the title "Rock Paper Scissors" displayed prominently. The title gives a clear indication of the game being played and the button play for access the main page.
 
 <img src="documentation/images/index-image.jpg" alt="title">
 
+## Reset buttom
 
-## Navigation Bar
+- The reset button provides users with the ability to reset the game and start a new round without reloading the entire webpage. It enhances user engagement and encourages replayability by allowing users to quickly and conveniently continue playing the Rock-Paper-Scissors game.
 
-- Navbar include links to the websites Home page, About page, Sign up page and a Eniac logo.
-- On left, Eniac logo when is select is will back to home page.
-- On right, there are three elements clearly state the content of each page.
+<img src="documentation/images/reset-btn.jpg" alt="reset-btn">
 
-<img src="documentation/images/features/nav-bar.jpg" alt="Nav-bar">
+## Message box
 
+The message box serves as a visual indicator of the game outcome, providing users with immediate feedback on the result of their game round. Its clear presentation and distinct styling enhance the user experience by effectively communicating the outcome of the Rock-Paper-Scissors game.
+
+<img src="documentation/images/message-image.jpg" alt="message">
 <!-- 
 The home page of the website features a title "ENIAC: The First General-Purpose Electronic Digital Computer" overlaid on top of it.
 

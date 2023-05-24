@@ -111,7 +111,7 @@ function winner() {
 
     } else if (scoreComputer.textContent == '3') {
         document.body.style.backgroundColor = "	#FF0000";
-        message.textContent = 'Looser!';
+        message.textContent = '"Oops! You lost this game. Better luck next time!"';
         scoreComputer.textContent = "⭐️⭐️";
         scorePlayer.textContent = "⭐️⭐️";
     }
