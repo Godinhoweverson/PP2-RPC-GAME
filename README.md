@@ -10,8 +10,8 @@ The website is a simple implementation of a Rock-Paper-Scissors game.
 - Scissors beats paper
 - Paper beats rock
 
-<img src="documentation/responsive-rpc.png" alt="Rpc-responsive">
-![RPC-responsive](https://ui.dev/amiresponsive?url=%20https://godinhoweverson.github.io/PP2-RPC-GAME/)
+<img src="documentation/images/responsive-rpc.png" alt="Rpc-responsive">
+
 
 ## User Experience (UX)
 
@@ -22,25 +22,12 @@ The website is a simple implementation of a Rock-Paper-Scissors game.
 - The result of the game is displayed using visually distinct messages. When the user wins, the message is displayed in green, while a red message indicates a loss.
 
 
-<!-- 
-## Design
-
-### Color scheme
-
-I used <a href="https://coolors.co/000000-545454-999999-ffffff" target="_blank">Coolors.co</a> to generate my colour palette.
-
-<img src="documentation/images/color-scheme/color-scheme.png" alt="Color scheme">
-
-### Typography
-
-- <a href="https://fonts.google.com/" target="_blank">Google Fonts</a> were used to import 'Lato', sans-serif into style.css.
-- The text on the website is well-justified, which means that it is aligned evenly on both sides, creating a clean and professional appearance.
-
 ## Features
 
-The website is comprised of three pages, all accessible from the navigation menu (Home, About and Sign up).
+- First page, you will see the title "Rock Paper Scissors" displayed prominently. The title gives a clear indication of the game being played and the button play for access the main page.
 
-### Existing Features
+<img src="documentation/images/index-image.jpg" alt="title">
+
 
 ## Navigation Bar
 
@@ -50,10 +37,7 @@ The website is comprised of three pages, all accessible from the navigation menu
 
 <img src="documentation/images/features/nav-bar.jpg" alt="Nav-bar">
 
-## Home Page
-
-The main content of the home page is organized into sections, each with a heading and some text describing the section's content.
-
+<!-- 
 The home page of the website features a title "ENIAC: The First General-Purpose Electronic Digital Computer" overlaid on top of it.
 
 <img src="documentation/images/features/first-container.jpg" alt="title-ENIAC">
@@ -187,4 +171,4 @@ You can fork this repository by using the following steps:
 ### Acknowledgements
 
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the technical support.
-- I would like to thank my wife Deborah, for believing in me, and allowing me to make this transition into software development. -->
+- I would like to thank my wife Deborah, for believing in me, and allowing me to make this transition into software development. --> --> -->
