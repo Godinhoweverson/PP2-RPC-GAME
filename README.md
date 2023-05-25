@@ -77,47 +77,11 @@ When the score reaches 3 for either the player or the computer, the game enters 
 The placement of the rules in the footer allows players to have a seamless and uninterrupted gaming experience while still being able to consult the rules whenever necessary. It enhances the usability and accessibility of the website, enabling players to enjoy the game while having the necessary information readily available.
 
 <img src="documentation/images/footer-rules.jpg" alt="rules">
-<!-- The home page of the website features a title "ENIAC: The First General-Purpose Electronic Digital Computer" overlaid on top of it.
 
-<img src="documentation/images/features/first-container.jpg" alt="title-ENIAC">
 
-- This section there is a brief introduction to the website, which provides some background information about the ENIAC and its historical significance.
 
-<img src="documentation/images/features/introduction.jpg" alt="title-ENIAC">
 
-- This section below provide information about the specific goal the ENIAC was designed, includes an image and a button "READ MORE" that interact with ABOUT PAGE on the website.
-
-<img src="documentation/images/features/third-section.jpg" alt="Third-section">
-
-- This section there are a video of University of Pennsylvania  and also a text explaining about ENIAC.
-
-<img src="documentation/images/features/fourth-section.jpg" alt="fourth-section">
-
-### Footer
-
-- The footer is fixed to bottom all pages.
-- Links to the main social media.
-
-<img src="documentation/images/features/footer.jpeg" alt="footer-section">
-</p>
-
-### About Page
-
-On the ABOUT PAGE we have an explanatory text about ENIAC followed by four images with descriptions.
-
-<img src="documentation/images/features/about.jpeg" alt="about-content">
-
-<img src="documentation/images/features/about-images.jpeg" alt="images-programers">
-
-<img src="documentation/images/features/about-text.jpeg" alt="text">
-
-### Sign up
-
-On Sign up page the users can subscribe to receive more history content.
-
-<img src="documentation/images/features/signup.jpeg" alt="text">
-
-## Future Features
+<!-- ## Future Features
 
 ### Visual Enhancements
 
@@ -210,4 +174,4 @@ You can fork this repository by using the following steps:
 ### Acknowledgements
 
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the technical support.
-- I would like to thank my wife Deborah, for believing in me, and allowing me to make this transition into software development.  -->
+- I would like to thank my wife Deborah, for believing in me, and allowing me to make this transition into software development.  --> -->
