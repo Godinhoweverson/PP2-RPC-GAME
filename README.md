@@ -81,28 +81,20 @@ The placement of the rules in the footer allows players to have a seamless and u
 
 
 
-<!-- ## Future Features
 
-### Visual Enhancements
-
-- We will add more visual elements to the website, such as images, videos, or animations. This  will  help to make the website more engaging and visually appealing.
-
-### Feedback System
-
-- We will add a feedback system that would allow users to provide feedback or report bugs. This would help to improve the quality of the project and provide users with a better experience.
 
 ## Tools & Technologies Used
 
 - [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
 - [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
 - [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) used for an enhanced responsive layout.
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript) Game functionality.
 - [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [GitHub](https://github.com) used for secure online code storage.
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
-- [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
-- [Markdown Builder](https://traveltimn.github.io/markdown-builder/) used to help generate the Markdown files.
+- [CodeAnywhere](https://codeanywhere.com/) used as a cloud-based IDE for development.
 - [Am I Responsive?](https://ui.dev/amiresponsive) used to show the website on a range of devices.
-
+<!--
 ## Testing
 
 For all testing, please refer to the [TESTING.md](TESTING.md) file.
