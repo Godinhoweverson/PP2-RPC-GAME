@@ -2,13 +2,23 @@
 
 The website is a simple implementation of a Rock-Paper-Scissors game.
 
-## Game Description
+## Gameplay Instructions
 
-- The Rock-Paper-Scissors game is a classic hand game played between two players. Each player simultaneously chooses one of three options: rock, paper, or scissors. The outcome of the game is determined by the choices made by the players:
+- To start the game, click on the "Play" button.
 
-- Rock beats scissors
-- Scissors beats paper
-- Paper beats rock
+- Choose your move by clicking on one of the available options: rock, paper, or scissors.
+
+- The computer opponent will randomly select its move.
+
+- The game will determine the winner based on the chosen moves: rock beats scissors, scissors beats paper, and paper beats rock.
+
+- The game result will be displayed on the screen, indicating whether you won, lost, or draw.
+
+- The game will keep track of the score for both you and the computer opponent.
+
+- The first player to reach a score of 3 will be declared the winner, and the game will end.
+
+- You can choose to play again by clicking the "Reset" button.
 
 <img src="documentation/images/responsive-rpc.png" alt="Rpc-responsive">
 
@@ -18,9 +28,6 @@ The website is a simple implementation of a Rock-Paper-Scissors game.
 - The website has a simple and clean visual design that is intuitive and easy to understand. The color scheme is minimalistic, primarily using shades of gray and white for the background, with contrasting black text and icons. The use of a limited color palette helps to maintain focus on the game itself.
 
 - The options to choose from (Rock, Paper, and Scissors) are clearly displayed and easily distinguishable. Each option is represented by an icon that accurately represents the corresponding object. The icons are visually appealing and help users quickly identify their choices.
-
-- The result of the game is displayed using visually distinct messages. When the user wins, the message is displayed in green, while a red message indicates a loss.
-
 
 ## Features
 
@@ -40,8 +47,37 @@ The website is a simple implementation of a Rock-Paper-Scissors game.
 The message box serves as a visual indicator of the game outcome, providing users with immediate feedback on the result of their game round. Its clear presentation and distinct styling enhance the user experience by effectively communicating the outcome of the Rock-Paper-Scissors game.
 
 <img src="documentation/images/message-image.jpg" alt="message">
-<!-- 
-The home page of the website features a title "ENIAC: The First General-Purpose Electronic Digital Computer" overlaid on top of it.
+
+## Images
+
+- This section will showcase images of "rock, paper, scissors" for both the player and the computer. The player can choose their desired option, while the computer's choice will be randomized.
+
+<img src="documentation/images/player-computer.jpg" alt="image-choice">
+
+
+## Buttons rock, paper and scissors
+
+- This interactive feature allows the player to actively participate by selecting their preferred move among the three buttons options. Whether they opt for the rock, paper, or scissors, the player's decision is captured when they click on the corresponding button.
+  
+<img src="documentation/images/btns-image.jpg" alt="btns">
+
+## Scores
+-keeps track of the results and displays the current score for the player and the computer in the game of rock, paper, scissors.
+
+As the game progresses, each round's outcome, whether it's a win, loss, or draw, is recorded and reflected in the score section. Typically, the score section consists of separate counters or visual elements for the player's score and the computer's score.
+
+For example, if the player wins a round, their score will increase by one, while the computer's score remains unchanged. Conversely, if the computer wins, its score increases, and the player's score stays the same. In the case of a draw, both scores may remain unchanged.
+
+When the score reaches 3 for either the player or the computer, the game enters its final phase. At this point, a clear indication is displayed to notify the players that the game has concluded. This notification will be in the form of a message and background-color, red when the player lost game and green if win.
+
+<img src="documentation/images/scores-image.jpg" alt="scores">
+
+## Footer
+
+The placement of the rules in the footer allows players to have a seamless and uninterrupted gaming experience while still being able to consult the rules whenever necessary. It enhances the usability and accessibility of the website, enabling players to enjoy the game while having the necessary information readily available.
+
+<img src="documentation/images/footer-rules.jpg" alt="rules">
+<!-- The home page of the website features a title "ENIAC: The First General-Purpose Electronic Digital Computer" overlaid on top of it.
 
 <img src="documentation/images/features/first-container.jpg" alt="title-ENIAC">
 
@@ -174,4 +210,4 @@ You can fork this repository by using the following steps:
 ### Acknowledgements
 
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the technical support.
-- I would like to thank my wife Deborah, for believing in me, and allowing me to make this transition into software development. --> --> -->
+- I would like to thank my wife Deborah, for believing in me, and allowing me to make this transition into software development.  -->
