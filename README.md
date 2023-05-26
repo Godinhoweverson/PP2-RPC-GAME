@@ -131,32 +131,26 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository.
 You can fork this repository by using the following steps:
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Godinhoweverson/PP1_Eniac_First_Computer)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Godinhoweverson/PP2-RPC-GAME)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
-<!--
+
 ## Credits
 
 ### Content
 
-| Source | Location | Notes |
-| --- | --- | --- |
-| [Markdown Builder](https://traveltimn.github.io/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
-| [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site | responsive HTML/CSS/ navbar|
-| [W3Schools](https://www.w3schools.com/html/html_forms.asp) | sign up page | form and input element |
-| [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
-| [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) | entire site | modern responsive layouts |
+ - [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)  responsive HTML/CSS
+ - [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) modern responsive layouts 
+ - [Youtube](https://www.youtube.com/watch?v=2V7rfcVg5UQ&t=54s) | Document Object Model (DOM)  
+ - [Mdn web docs](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)   Document Object Model (DOM)  
 
 ### Media
 
-| Source | Location | Type | Notes |
-| --- | --- | --- | --- |
-| [Pexels](https://www.pexels.com) | entire site | image | on all pages |
-| [Lorem Picsum](https://picsum.photos) | home page | image | on all pages|
-| [Wikipedia](https://www.wikipedia.org/) | Content | text | search source |
-| [Youtube](https://www.youtube.com/watch?v=k4oGI_dNaPc) | home page | video | video on fourth-container |
+- [Pintrest](https://www.pinterest.ie/) Images 
+- [Wikipedia](https://www.wikipedia.org/) Game rules
 
-### Acknowledgements
+
+<!-- ### Acknowledgements
 
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the technical support.
-- I would like to thank my wife Deborah, for believing in me, and allowing me to make this transition into software development.  --> -->
+- I would like to thank my wife Deborah, for believing in me, and allowing me to make this transition into software development.   -->
