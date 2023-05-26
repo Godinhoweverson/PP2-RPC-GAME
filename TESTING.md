@@ -8,7 +8,7 @@
   - I have used <a href="https://validator.w3.org/" target="_blank">HTML W3C Validator.</a>
   - No error.
 
-<img src="documentation/images/testing.md/html-validator.jpeg" alt="Validator HTML">
+<img src="documentation/images/testing.md/html-validator.jpg" alt="Validator HTML">
 
 ## W3C CSS Validator (Jigsaw)
 
@@ -25,14 +25,14 @@
 
   - No major issues.
 
-    <img src="documentation/images/testing.md/lighthouse-desktop.jpeg" alt="desktop" width="500px">
+    <img src="documentation/images/testing.md/lighthouse-desktop.jpg" alt="desktop" width="500px">
 
 
 ## Mobile
 
   - No major issues.
 
-    <img src="documentation/images/testing.md/lighthouse-mobile.jpeg" alt="mobile" width="500px">
+    <img src="documentation/images/testing.md/lighthouse-mobile.jpg" alt="mobile" width="500px">
   
 
 ### Accessibility
@@ -40,5 +40,5 @@
 - I have used <a href="https://wave.webaim.org/" target="_blank">Wave.</a>
 - All pages tested no error found.
 
-   <img src="documentation/images/testing.md/accessibility.jpeg" alt="acessibility test" height="500px">
+   <img src="documentation/images/testing.md/accessibility.jpg" alt="acessibility test" height="500px">
 ````````````````````````````````````````````````````````````````````````````````````````````````````
