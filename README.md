@@ -62,7 +62,7 @@ The message box serves as a visual indicator of the game outcome, providing user
 <img src="documentation/images/btns-image.jpg" alt="btns">
 
 ## Scores
--keeps track of the results and displays the current score for the player and the computer in the game of rock, paper, scissors.
+Keeps track of the results and displays the current score for the player and the computer in the game of rock, paper, scissors.
 
 As the game progresses, each round's outcome, whether it's a win, loss, or draw, is recorded and reflected in the score section. Typically, the score section consists of separate counters or visual elements for the player's score and the computer's score.
 
@@ -79,10 +79,6 @@ The placement of the rules in the footer allows players to have a seamless and u
 <img src="documentation/images/footer-rules.jpg" alt="rules">
 
 
-
-
-
-
 ## Tools & Technologies Used
 
 - [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
@@ -94,7 +90,7 @@ The placement of the rules in the footer allows players to have a seamless and u
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [CodeAnywhere](https://codeanywhere.com/) used as a cloud-based IDE for development.
 - [Am I Responsive?](https://ui.dev/amiresponsive) used to show the website on a range of devices.
-<!--
+
 ## Testing
 
 For all testing, please refer to the [TESTING.md](TESTING.md) file.
@@ -103,11 +99,11 @@ For all testing, please refer to the [TESTING.md](TESTING.md) file.
 
 The site was deployed to GitHub Pages. The steps to deploy are as follows:
 
-- In the [GitHub repository](https://github.com/Godinhoweverson/PP1_Eniac_First_Computer), navigate to the Settings tab
+- In the [GitHub repository](https://github.com/Godinhoweverson/PP2-RPC-GAME), navigate to the Settings tab
 - From the source section drop-down menu, select the **Main** Branch, then click "Save".
 - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found [here](https://godinhoweverson.github.io/PP1_Eniac_First_Computer/)
+The live link can be found [here](https://godinhoweverson.github.io/PP2-RPC-GAME/)
 
 ### Local Deployment
 
@@ -117,21 +113,18 @@ This project can be cloned or forked in order to make a local copy on your own s
 
 You can clone the repository by following these steps:
 
-1. Go to the [GitHub repository](https://github.com/Godinhoweverson/PP1_Eniac_First_Computer)
+1. Go to the [GitHub repository](https://github.com/Godinhoweverson/PP2-RPC-GAME)
 2. Locate the Code button above the list of files and click it
 3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
 4. Open Git Bash or Terminal
 5. Change the current working directory to the one where you want the cloned directory
 6. In your IDE Terminal, type the following command to clone my repository:
-	- `git clone https://github.com/Godinhoweverson/PP1_Eniac_First_Computer.git`
+	- `git clone https://github.com/Godinhoweverson/PP2-RPC-GAME.git`
 7. Press Enter to create your local clone.
 
 Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Godinhoweverson/PP1_Eniac_First_Computer)
-
-Please note that in order to directly open the project in Gitpod, you need to have the browser extension installed.
-A tutorial on how to do that can be found [here](https://www.gitpod.io/docs/configure/user-settings/browser-extension).
+[Open in Codeanywhere](https://app.codeanywhere.com/#https://github.com/Godinhoweverson/PP2-RPC-GAME)
 
 #### Forking
 
@@ -141,7 +134,7 @@ You can fork this repository by using the following steps:
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Godinhoweverson/PP1_Eniac_First_Computer)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
-
+<!--
 ## Credits
 
 ### Content
