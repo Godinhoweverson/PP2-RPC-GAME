@@ -63,34 +63,50 @@ function gameSteUp(itens) {
     //if statement checks the different combinations of choices (rock, paper, scissors) between the player and the computer. 
 
     if (player === computer) {
-        message.textContent = 'Draw!';
+        if (scoreComputer.textContent <= '2' && scorePlayer.textContent <= '2') {
+            message.textContent = 'Draw!';
+        }
+
         // If both choices are the same, it's a draw
 
     } else if (player === 'rock' && computer === 'scissors') {
-        message.textContent = 'Player win!';
-        scorePlayer.textContent++;
-        winner();
+        if (scorePlayer.textContent <= '2') {
+            message.textContent = 'Player win!';
+            scorePlayer.textContent++;
+            winner();
+        }
+
 
         // If the player chooses rock and the computer chooses scissors, the player wins.
 
     } else if (player === 'scissors' && computer === 'paper') {
-        message.textContent = 'Player win!';
-        scorePlayer.textContent++;
-        winner();
+        if (scorePlayer.textContent <= '2') {
+            message.textContent = 'Player win!';
+            scorePlayer.textContent++;
+            winner();
+        }
+
+
         // If the player chooses scissors and the computer chooses paper, the player wins
 
 
     } else if (player === 'paper' && computer === 'rock') {
-        message.textContent = 'Player win!';
-        scorePlayer.textContent++;
-        winner();
+        if (scorePlayer.textContent <= '2') {
+            message.textContent = 'Player win!';
+            scorePlayer.textContent++;
+            winner();
+        }
+
         // If the player chooses paper and the computer chooses rock, the player wins
 
 
     } else {
-        message.textContent = 'Computer win!';
-        scoreComputer.textContent++;
-        winner();
+        if (scoreComputer.textContent <= '2') {
+            message.textContent = 'Computer win!';
+            scoreComputer.textContent++;
+            winner();
+        }
+
         // In all other cases, the computer wins
 
     }
@@ -104,7 +120,8 @@ function gameSteUp(itens) {
 function winner() {
     if (scorePlayer.textContent == '3') {
         document.body.style.backgroundColor = "#00B712";
-        btndefault();
+
+
 
 
 
@@ -114,7 +131,7 @@ function winner() {
     } else if (scoreComputer.textContent == '3') {
         document.body.style.backgroundColor = "	#FF0000";
         message.textContent = '"Oops! You lost this game. Better luck next time!"';
-        btndefault();
+
 
 
 
@@ -134,20 +151,20 @@ function resetBtn() {
 }
 
 
-function btndefault() {
+// function btndefault() {
 
-    for (let buttons of btnsBox) {
-        buttons.addEventListener('click', function () {
-            // Get the data-choice attribute from the click button, the data is "rock = 0, paper= 1, scissors= 2"
-            let itens = this.getAttribute('data-choice');
-            scorePlayer.textContent = 0;
-            scoreComputer.textContent = 0;
-            imageComputer.src = `assets/images/default.png`;
-            imagePlayer.src = `assets/images/default.png`;
-            message.textContent = "Click reset to play again!";
+//     for (let buttons of btnsBox) {
+//         buttons.addEventListener('click', function () {
+//             // Get the data-choice attribute from the click button, the data is "rock = 0, paper= 1, scissors= 2"
+//             let itens = this.getAttribute('data-choice');
+//             scorePlayer.textContent = 0;
+//             scoreComputer.textContent = 0;
+//             imageComputer.src = `assets/images/default.png`;
+//             imagePlayer.src = `assets/images/default.png`;
+//             message.textContent = "Click reset to play again!";
 
-        });
-    }
+//         });
+//     }
 
-}
+
 
