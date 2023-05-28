@@ -104,19 +104,21 @@ function gameSteUp(itens) {
 function winner() {
     if (scorePlayer.textContent == '3') {
         document.body.style.backgroundColor = "#00B712";
-        scoreComputer.textContent = "⭐️⭐️";
-        scorePlayer.textContent = "⭐️⭐️";
+        btndefault();
+
+
+
 
 
 
     } else if (scoreComputer.textContent == '3') {
         document.body.style.backgroundColor = "	#FF0000";
         message.textContent = '"Oops! You lost this game. Better luck next time!"';
-        scoreComputer.textContent = "⭐️⭐️";
-        scorePlayer.textContent = "⭐️⭐️";
+        btndefault();
+
+
+
     }
-
-
 }
 
 /**
@@ -130,3 +132,22 @@ function resetBtn() {
     scoreComputer.textContent = 0;
     document.body.style.backgroundColor = "	#212121";
 }
+
+
+function btndefault() {
+
+    for (let buttons of btnsBox) {
+        buttons.addEventListener('click', function () {
+            // Get the data-choice attribute from the click button, the data is "rock = 0, paper= 1, scissors= 2"
+            let itens = this.getAttribute('data-choice');
+            scorePlayer.textContent = 0;
+            scoreComputer.textContent = 0;
+            imageComputer.src = `assets/images/default.png`;
+            imagePlayer.src = `assets/images/default.png`;
+            message.textContent = "Click reset to play again!";
+
+        });
+    }
+
+}
+
