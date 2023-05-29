@@ -15,6 +15,8 @@ const computerChoice = ['rock', 'paper', 'scissors'];
 
 let computer;
 let player;
+let score1 = 0;
+let score2 = 0;
 
 //// Add a click event listener to the reset button
 btnReset.addEventListener('click', function () {
@@ -61,29 +63,36 @@ function gameSteUp(itens) {
 
 
     //if statement checks the different combinations of choices (rock, paper, scissors) between the player and the computer. 
-
     if (player === computer) {
-        if (scoreComputer.textContent <= '2' && scorePlayer.textContent <= '2') {
+        if (score1 <= 2) {
             message.textContent = 'Draw!';
         }
 
         // If both choices are the same, it's a draw
 
     } else if (player === 'rock' && computer === 'scissors') {
-        if (scorePlayer.textContent <= '2') {
+        if (score1 <= 2 && score2 !== 3) {
             message.textContent = 'Player win!';
-            scorePlayer.textContent++;
+            score1++;
+            scorePlayer.textContent = score1;
             winner();
+            if (score1 === 3) {
+                scoreComputer.textContent = '❌';
+            }
         }
 
 
         // If the player chooses rock and the computer chooses scissors, the player wins.
 
     } else if (player === 'scissors' && computer === 'paper') {
-        if (scorePlayer.textContent <= '2') {
+        if (score1 <= 2 && score2 !== 3) {
             message.textContent = 'Player win!';
-            scorePlayer.textContent++;
+            score1++;
+            scorePlayer.textContent = score1;
             winner();
+            if (score1 === 3) {
+                scoreComputer.textContent = '❌';
+            }
         }
 
 
@@ -91,27 +100,33 @@ function gameSteUp(itens) {
 
 
     } else if (player === 'paper' && computer === 'rock') {
-        if (scorePlayer.textContent <= '2') {
+        if (score1 <= 2 && score2 !== 3) {
             message.textContent = 'Player win!';
-            scorePlayer.textContent++;
+            score1++;
+            scorePlayer.textContent = score1;
             winner();
+            if (score1 === 3) {
+                scoreComputer.textContent = '❌';
+            }
         }
 
         // If the player chooses paper and the computer chooses rock, the player wins
 
 
     } else {
-        if (scoreComputer.textContent <= '2') {
+        if (score2 <= 2 && score1 !== 3) {
             message.textContent = 'Computer win!';
-            scoreComputer.textContent++;
+            score2++;
+            scoreComputer.textContent = score2;
             winner();
+            if (score2 === 3) {
+                scorePlayer.textContent = '❌';
+            }
+        
         }
 
         // In all other cases, the computer wins
 
-    }
-
-}
 
 /**
  * Check for a winner based on the current scores.
@@ -145,6 +160,8 @@ function resetBtn() {
     message.textContent = "Choose one!";
     imagePlayer.src = `assets/images/default.png`;
     imageComputer.src = `assets/images/default.png`;
+  score1 = 0;
+   score2 = 0;
     scorePlayer.textContent = 0;
     scoreComputer.textContent = 0;
     document.body.style.backgroundColor = "	#212121";
