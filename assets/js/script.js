@@ -64,7 +64,7 @@ function gameSteUp(itens) {
 
     //if statement checks the different combinations of choices (rock, paper, scissors) between the player and the computer. 
     if (player === computer) {
-        if (score1 <= 2) {
+        if (score1 <= 2 && score2 <= 2) {
             message.textContent = 'Draw!';
         }
 
@@ -76,9 +76,7 @@ function gameSteUp(itens) {
             score1++;
             scorePlayer.textContent = score1;
             winner();
-            if (score1 === 3) {
-                scoreComputer.textContent = '❌';
-            }
+
         }
 
 
@@ -90,9 +88,7 @@ function gameSteUp(itens) {
             score1++;
             scorePlayer.textContent = score1;
             winner();
-            if (score1 === 3) {
-                scoreComputer.textContent = '❌';
-            }
+
         }
 
 
@@ -100,14 +96,12 @@ function gameSteUp(itens) {
 
 
     } else if (player === 'paper' && computer === 'rock') {
-        if (score1 <= 2 && score2 !== 3) {
+        if (score2 <= 2 && score1 !== 3) {
             message.textContent = 'Player win!';
             score1++;
             scorePlayer.textContent = score1;
             winner();
-            if (score1 === 3) {
-                scoreComputer.textContent = '❌';
-            }
+
         }
 
         // If the player chooses paper and the computer chooses rock, the player wins
@@ -119,13 +113,13 @@ function gameSteUp(itens) {
             score2++;
             scoreComputer.textContent = score2;
             winner();
-            if (score2 === 3) {
-                scorePlayer.textContent = '❌';
-            }
-        
-        }
 
-        // In all other cases, the computer wins
+
+        }
+    }
+}
+
+// In all other cases, the computer wins
 
 
 /**
@@ -133,19 +127,18 @@ function gameSteUp(itens) {
  * If a player or computer reaches a score of 3, update the UI and display appropriate messages.
  */
 function winner() {
-    if (scorePlayer.textContent == '3') {
+    if (score1 === 3) {
         document.body.style.backgroundColor = "#00B712";
+        scoreComputer.textContent = '⭐️⭐️';
+        scorePlayer.textContent = '⭐️⭐️';
 
 
 
-
-
-
-
-
-    } else if (scoreComputer.textContent == '3') {
+    } else if (score2 === 3) {
         document.body.style.backgroundColor = "	#FF0000";
         message.textContent = '"Oops! You lost this game. Better luck next time!"';
+        scoreComputer.textContent = '⭐️⭐️';
+        scorePlayer.textContent = '⭐️⭐️';
 
 
 
@@ -160,28 +153,14 @@ function resetBtn() {
     message.textContent = "Choose one!";
     imagePlayer.src = `assets/images/default.png`;
     imageComputer.src = `assets/images/default.png`;
-  score1 = 0;
-   score2 = 0;
+    score1 = 0;
+    score2 = 0;
     scorePlayer.textContent = 0;
     scoreComputer.textContent = 0;
     document.body.style.backgroundColor = "	#212121";
 }
 
 
-// function btndefault() {
-
-//     for (let buttons of btnsBox) {
-//         buttons.addEventListener('click', function () {
-//             // Get the data-choice attribute from the click button, the data is "rock = 0, paper= 1, scissors= 2"
-//             let itens = this.getAttribute('data-choice');
-//             scorePlayer.textContent = 0;
-//             scoreComputer.textContent = 0;
-//             imageComputer.src = `assets/images/default.png`;
-//             imagePlayer.src = `assets/images/default.png`;
-//             message.textContent = "Click reset to play again!";
-
-//         });
-//     }
 
 
 
