@@ -49,11 +49,18 @@ function gameSteUp(itens) {
     // Generate a random number between 0 and 2    
     let randomNumber = Math.floor(Math.random() * 3);
 
-    //Set  the source imageComputer based on the array[random index between 0 and 2]
-    imageComputer.src = `assets/images/${computerChoice[randomNumber]}.png`;
+    if (score1 <= 3 && score2 !== 3) {
+        if (score2 <= 3 && score1 !== 3) {
+            //Set  the source imageComputer based on the array[random index between 0 and 2]
+            imageComputer.src = `assets/images/${computerChoice[randomNumber]}.png`;
 
-    // Set the source imagePlayer based on data-choice
-    imagePlayer.src = `assets/images/${computerChoice[itens]}.png`;
+            // Set the source imagePlayer based on data-choice
+            imagePlayer.src = `assets/images/${computerChoice[itens]}.png`;
+        }
+    }
+
+
+
 
 
 
